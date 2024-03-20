@@ -8,7 +8,7 @@ import java.util.List;
 
 @Getter
 @Setter
-@Entity
+@Entity(name = "sp_Group")
 public class Group extends BaseModel{
     private String name;
     private List<Expense> expenses;
